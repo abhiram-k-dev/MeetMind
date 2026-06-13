@@ -1,0 +1,17 @@
+Rahul: Okay, let's get into it. We need to decide on the auth service migration before the sprint planning tomorrow.
+
+Vishnu: Right, so as I mentioned in my email, the token rotation approach reduces our exposure significantly. I think we should go with Vishnu's strategy - sorry, I mean my strategy - the 15-minute rotation window.
+
+Rahul: I remember we talked about needing a rollback plan. Do we have that sorted?
+
+Vishnu: Yes, I added a rollback section to the proposal doc. If rotation fails, tokens fall back to the previous 24-hour validity window for up to 1 hour while we investigate.
+
+Anjali: From a product side, will this affect the onboarding flow? We're already pushing hard on activation rate for Q3.
+
+Vishnu: Shouldn't affect onboarding directly, but I'll do a quick check with the frontend team just to be safe.
+
+Rahul: Okay, let's go with Vishnu's strategy then. Vishnu, can you finalize the rollback doc and share it by Thursday? Anjali, can you loop in frontend just to confirm no onboarding impact?
+
+Anjali: Sure, I'll ping them today.
+
+Rahul: Great. Let's reconvene Friday to confirm we're good to merge next sprint.

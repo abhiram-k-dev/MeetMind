@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Auth Service Architecture Review",
+    "date": "2026-06-09",
+    "attendees": ["vishnu@contoso.com", "rahul@contoso.com"],
+    "summary": "Discussed token rotation proposal. Rahul flagged need for rollback plan before approval."
+  }
+]

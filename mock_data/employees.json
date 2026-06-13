@@ -1,0 +1,17 @@
+{
+  "Vishnu": {
+    "email": "vishnu@contoso.com",
+    "role": "Senior Backend Engineer",
+    "team": "Platform Engineering"
+  },
+  "Anjali": {
+    "email": "anjali@contoso.com",
+    "role": "Product Manager",
+    "team": "Growth"
+  },
+  "Rahul": {
+    "email": "rahul@contoso.com",
+    "role": "Engineering Manager",
+    "team": "Platform Engineering"
+  }
+}

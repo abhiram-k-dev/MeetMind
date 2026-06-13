@@ -1,0 +1,14 @@
+[
+  {
+    "from": "vishnu@contoso.com",
+    "subject": "Proposal: Migrate auth service to token rotation",
+    "date": "2026-06-08",
+    "body": "I propose we migrate the auth service to use short-lived tokens with automatic rotation every 15 minutes. This reduces the blast radius of leaked tokens and aligns with our SOC2 audit requirements. Estimated effort: 2 sprints."
+  },
+  {
+    "from": "anjali@contoso.com",
+    "subject": "Q3 Growth targets - draft",
+    "date": "2026-06-05",
+    "body": "Draft Q3 targets attached. We're aiming for 18% MoM growth in activation rate, primarily driven by onboarding flow improvements."
+  }
+]
